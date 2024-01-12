@@ -10,17 +10,17 @@
 
 // 1 - Primitive
 
-  // ----Boolean
+  // ---- Boolean
   // let boolean = true;
   // console.log(typeof(boolean));
 
 
-  // ----Null
+  // ---- Null
   // let n = null;
   // console.log(typeof(n));
 
 
-  // ----Undefined
+  // ---- Undefined
   // let undf = undefined;
   // console.log(typeof(undf));
   // let a; The variable ‘a’ has been declared but hasn’t been assigned a value yet.
@@ -29,11 +29,22 @@
   // a = 5;
   // console.log(a); This will return 5
 
-  // Number 
+  // ---- Number 
   // let num = 123;
   // console.log(typeof(num));
 
-   // String 
+   // ---- String 
   // let str = 'This is a String';
   // console.log(str)
   // console.log(typeof(str));
+
+
+  // 1 - Non-Primitive
+
+    // ---- Object
+
+    // let person = {
+    //   age: 30,
+    //   name: 'Bogdan',
+    // }
+    // console.log(person);
