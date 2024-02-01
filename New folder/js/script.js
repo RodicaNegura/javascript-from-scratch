@@ -70,3 +70,17 @@
 //                 ];
 
 // console.log(people);
+
+
+// Operators
+
+// JavaScript Arithmetic Operators (+, -, /, *, ++, --, %)
+
+  // -----addition
+  const sum = 1 + 1; console.log(sum);
+  // -----subtraction
+  const difference = 7 - 5; console.log(difference);
+  // -----multiplication
+  const multiply = 3 * 5; console.log(multiply);
+  // -----division
+  const division = 15 / 3; console.log(division);
