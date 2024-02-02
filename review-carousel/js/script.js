@@ -25,5 +25,5 @@ function carousel(review) {
   for (let i = 0; i < reviews.length; i++) {
     reviews[i].style.display = "none";
   }
-  reviews[review].style.display = "block"
+  reviews[review].style.display = "block";
 }
