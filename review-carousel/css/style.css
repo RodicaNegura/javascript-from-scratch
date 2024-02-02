@@ -23,6 +23,34 @@
 .review__items img {
   height: 20rem;
   width: 20rem;
-  align-items: center;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 4px 15px;
+}
+
+.review__items h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.review__items p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.review__button {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.review__button button {
+  color: rgb(192, 229, 192);
+  background: green;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  border: none;
 }
