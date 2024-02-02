@@ -43,7 +43,7 @@
   padding: 1rem;
   display: flex;
   width: 50%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .review__button button {
@@ -53,4 +53,14 @@
   border-radius: 2rem;
   padding: 0.5rem;
   border: none;
+}
+
+.review__button button:hover {
+  background: rgb(192, 229, 192);
+  color: green;
+  border: 1px solid green;
+}
+
+.review__items {
+  display: none;
 }
