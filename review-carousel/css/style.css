@@ -1,7 +1,28 @@
-* {
-  font-family:'Times New Roman', Times, serif;
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(145, 226, 188);
+  height: auto;
+  width: 21rem;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem #32917d;
 }
 
+.review__items {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.review__items img {
+  height: 20rem;
+  width: 20rem;
+  align-items: center;
+  border-radius: 1rem;
+}
