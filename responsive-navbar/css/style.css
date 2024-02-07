@@ -87,6 +87,10 @@ nav {
   transition: all 0.3s linear;
 }
 
+.show-links {
+  height: 10rem;
+}
+
 @media screen and (min-width: 800px){
   .nav-principal {
     max-width: 1170px;
